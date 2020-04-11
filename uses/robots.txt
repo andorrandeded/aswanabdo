@@ -1,0 +1,4 @@
+Sitemap: https://assouaneabdelkarim.now.sh/uses/sitemap.xml
+
+User-agent: Googlebot
+Disallow:
