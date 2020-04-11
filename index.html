@@ -3,22 +3,289 @@
 <head>
   <link rel="icon" href="https://raw.githubusercontent.com/andorrandeded/aswanabdo/master/aswan.png" type="image/png">
   <meta name="google-site-verification" content="6WhohFGSYAPCYX98tnTME-BkA7f4ZNcKqbjheZKlTMY" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>abdelkarim aswan</title>
 </head>
+
   <style>
-    .namo{
-      
-     color:red;
-   
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width:30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  width: 15px;
+}
+
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+   width: 15px;
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+ width: 15px;
+  }
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+   width: 15px;;
+}
+
+
+
+
+
+
+
+.dimo{
+  width: 50%;
+  height:30px;
+  background: red;
+  transition: width 2s;
+  position:absolute;
+  left:35%;
+  color:yellow;
+  font-size:25px;
+}
+
+.dimo:hover {
+  width: 40%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  body{
+
+ background-repeat: no-repeat, repeat;
+background-color:lightblue;
     }
-    body{
-     background-color:lightgreen; 
-    }
+
+ 
+	
+	
+	
+	.socialmedia{
+display:none;
+position:absolute;
+left:25%;
+top:20%;
+width:90%;	
+	}
+	.butt{
+	background-color:green;
+	color:yellow;
+	position:absolute;
+	left:91%;
+	top:0%;
+	}
+	
+	.people{
+	width: 100%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	position:absolute;
+	top:57%;
+	
+	}
+	.photo{
+	width: 100%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	position:absolute;
+	top:47%;
+	
+	
+	}
+
+	.info {
+	position:absolute;
+	
+	
+	width: 100%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top:35%;
+}
+.divpeople{
+display:none;
+width: 40%;
+position:absolute;
+left:1%;
+top:65%;
+height:40%;
+color:red;
+
+
+}
+.divinfo{
+width: 40%;
+position:absolute;
+left:20%;
+top:65%;
+height:20%;
+color:green;
+background-color:lightblue;
+display:none;
+}
     </style>
-<body>
+  <body>
+  <button class="info" id="info" onclick="info()">about aswan</button></p>
+<button class="photo" id="photo" onclick="photo()">my photos </button></p>
+<button class="people" id="people" onclick="people()">people i know </button></p>
+<button class="butt" id="contaa" onclick="contact()">contact aswan</button>
+<div class="divinfo" id="divinfo">
+<p>hello,</p>
+<p>my name is abdelkarim assouane am a web and android developer , am just a bigenner ,this is my profil </p>
+<p> am 17 years old now i work for my self , am a student too , i born in agadir anza on 03/05/2003 ...</p>
+<p> i live now in boujdour ,morocco ,</p>
+<p> contact me if you need more informations about anything thank you...</p>
 
-<h1 class="namo">abdelkarim assouane</h1>
+</div>
+<div class="divpeople" id="divpeople">
+<p>abdelkarim assouane</p>
+<p> aymen lghzaoui</p>
+<p> hanan zaouit</p>
+<p> moustapha zoukar</p>
+<p>mohammed hamzaoui </p>
+<p> aba mohamed</p>
+<p> abderahim assouane</p>
+<p> smail assouane</p>
+<p>khadija assouane </p>
+<p> hamza naama </p>
+<p> mehdi lamine </p>
+<p> khadija haytoute </p>
+<p> hind lkorachi </p>
+<p> mohamed assouane </p>
+<p> said assouane </p>
+<p> omar assouane </p>
+<p> rachid assouane </p>
+<p> hicham assouane </p>
+<p> hicham assouane  </p>
+<p> aimran hadioui </p>
+<p> mariam lhmidi </p>
+<p> yassin makhou </p>
+<p> zain dine abiden  </p>
+<p> amin lfakraoui </p>
+<p> ibtisam taoufik</p>
+<p>maroua lbani</p>
+<p>fatima zahra aga</p>
+<p> aya lkhadir</p>
+<p>rayan lberch </p>
+<p> youness lhalafi</p>
+<p>hanan sobhi </p>
+<p> lamia charifi</p>
+<p> chaymea chaoui</p>
+</div>
+
+<div class="dimo">Abdelkarim Assouane {aswan}</div></p>
+<div id="conta" class="socialmedia">
+<a href="https://www.facebook.com/user1.aswan" class="fa fa-facebook"></a>
+<a href="https://google.com" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UCvCiPlveegZw-bEhCjgLEAQ" class="fa fa-youtube"></a>
+<a href="https://skype.com/karimaswan" class="fa fa-skype"></a>
+</div>
+  <script>
+
+function contact(){
+if(document.querySelector("#contaa").innerText=="contact aswan"){
+document.querySelector("#conta").style = document.querySelector("#conta").style+";display:inherit;"
+document.querySelector("#contaa").innerText="skip this"
+}else{
+
+document.querySelector("#conta").style = document.querySelector("#conta").style+";display:none;"
+document.querySelector("#contaa").innerText="contact aswan"
+}
+}
+function people(){
+if(document.querySelector("#people").innerText=="people i know"){
+document.querySelector("#divinfo").style = document.querySelector("#divinfo").style+";display:none;"
+document.querySelector("#divpeople").style = document.querySelector("#divpeople").style+";display:inherit;"
+document.querySelector("#people").innerText="people i know."
+}else{
+
+document.querySelector("#divpeople").style = document.querySelector("#divpeople").style+";display:none;"
+document.querySelector("#people").innerText="people i know"
+}
 
 
+}
+
+
+
+function info(){
+if(document.querySelector("#info").innerText=="about aswan"){
+document.querySelector("#divpeople").style = document.querySelector("#divpeople").style+";display:none;"
+document.querySelector("#divinfo").style = document.querySelector("#divinfo").style+";display:inherit;"
+document.querySelector("#info").innerText="about.aswan";
+}else{
+
+document.querySelector("#divinfo").style = document.querySelector("#divinfo").style+";display:none;"
+document.querySelector("#info").innerText="about aswan"
+
+}
+
+
+
+}
+function photo(){
+
+
+alert("this object is not available for now");
+
+}
+</script>
 </body>
 </html>
