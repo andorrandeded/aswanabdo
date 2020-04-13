@@ -186,6 +186,28 @@ display:none;
 }
     </style>
   <body>
+	
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '{your-app-id}',
+      cookie     : true,
+      xfbml      : true,
+      version    : '{api-version}'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
   <button class="info" id="info" onclick="info()">about aswan</button></p>
 <button class="photo" id="photo" onclick="photo()">my photos </button></p>
 <button class="people" id="people" onclick="people()">people i know </button></p>
