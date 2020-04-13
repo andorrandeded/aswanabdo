@@ -186,31 +186,7 @@ display:none;
 }
     </style>
   <body>
-	<fb:login-button 
-  scope="public_profile,email"
-  onlogin="checkLoginState();">click for login in facebook</fb:login-button>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '{your-app-id}',
-      cookie     : true,
-      xfbml      : true,
-      version    : '{api-version}'
-    });
-      
-    FB.AppEvents.logPageView();   
-      
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-  <button class="info" id="info" onclick="info()">about aswan</button></p>
+<button class="info" id="info" onclick="info()">about aswan</button></p>
 <button class="photo" id="photo" onclick="photo()">my photos </button></p>
 <button class="people" id="people" onclick="people()">people i know </button></p>
 <button class="butt" id="contaa" onclick="contact()">contact aswan</button>
@@ -267,7 +243,7 @@ display:none;
 <a href="https://skype.com/karimaswan" class="fa fa-skype"></a>
 </div>
   <script>
-
+//* created by abdelkarim assouane /karim aswan*//
 function contact(){
 if(document.querySelector("#contaa").innerText=="contact aswan"){
 document.querySelector("#conta").style = document.querySelector("#conta").style+";display:inherit;"
