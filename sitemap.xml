@@ -1,14 +1,38 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+ <url>
 <loc>https://assouaneabdelkarim.now.sh/uses</loc>
 <lastmod>2020-04-12</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
-</url>
-  <url>
+ 
+
 <loc>https://assouaneabdelkarim.now.sh/</loc>
 <lastmod>2020-04-12</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
+     <image:image>
+       <image:title>abdelkarim aswan</image:title>
+      <image:loc>here</image:loc>
+    </image:image>
+      <image:image>
+           <image:title>aswan abdelkarim</image:title>
+      <image:loc>here</image:loc>
+    </image:image>
+         <image:image>
+           <image:title>aswan</image:title>
+      <image:loc>here</image:loc>
+    </image:image>
+         <image:image>
+           <image:title>karim aswan</image:title>
+      <image:loc>here</image:loc>
+    </image:image>
+         <image:image>
+           <image:title>abdo aswan</image:title>
+      <image:loc>here</image:loc>
+    </image:image>
 </url>
 </urlset>
