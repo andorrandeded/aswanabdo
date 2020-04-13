@@ -2,37 +2,75 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
+ <url>
+<loc>https://assouaneabdelkarim.now.sh/aswan</loc>
+<lastmod>2020-04-12</lastmod>
+<priority>0.80</priority>
+<changefreq>daily</changefreq>
+</url>
  <url>
 <loc>https://assouaneabdelkarim.now.sh/uses</loc>
 <lastmod>2020-04-12</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
- 
-
+ </url>
+ <url>
 <loc>https://assouaneabdelkarim.now.sh/</loc>
 <lastmod>2020-04-12</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
      <image:image>
        <image:title>abdelkarim aswan</image:title>
-      <image:loc>here</image:loc>
+      <image:loc>https://assouaneabdelkarim.now.sh/img.jpg</image:loc>
     </image:image>
       <image:image>
            <image:title>aswan abdelkarim</image:title>
-      <image:loc>here</image:loc>
+      <image:loc>https://assouaneabdelkarim.now.sh/img2.jpg</image:loc>
     </image:image>
          <image:image>
            <image:title>aswan</image:title>
-      <image:loc>here</image:loc>
+      <image:loc>https://assouaneabdelkarim.now.sh/img3.jpg</image:loc>
     </image:image>
          <image:image>
            <image:title>karim aswan</image:title>
-      <image:loc>here</image:loc>
+      <image:loc>https://assouaneabdelkarim.now.sh/img4.jpg</image:loc>
     </image:image>
          <image:image>
            <image:title>abdo aswan</image:title>
-      <image:loc>here</image:loc>
+      <image:loc>https://assouaneabdelkarim.now.sh/img5.jpg</image:loc>
     </image:image>
+               <image:image>
+           <image:title>abdo </image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img6.jpg</image:loc>
+    </image:image>
+                  <image:image>
+           <image:title>abdelkarim assouane</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img7.jpg</image:loc>
+    </image:image>
+                  <image:image>
+           <image:title>aswan rachdi</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img8.jpg</image:loc>
+    </image:image>
+                  <image:image>
+           <image:title>abdo asawan</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img9.jpg</image:loc>
+    </image:image>
+                  <image:image>
+           
+      <image:loc>https://assouaneabdelkarim.now.sh/img11.jpg</image:loc>
+    </image:image>
+                  <image:image>
+           <image:title>assouane</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img12.jpg</image:loc>
+    </image:image>               
+     <image:image>
+           <image:title>assouane abdo karim</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img13.jpg</image:loc>
+    </image:image>
+            <image:image>
+           <image:title>devlover</image:title>
+      <image:loc>https://assouaneabdelkarim.now.sh/img14.jpg</image:loc>
+    </image:image>
+     
 </url>
 </urlset>
