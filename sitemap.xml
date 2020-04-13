@@ -5,4 +5,10 @@
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
 </url>
+  <url>
+<loc>https://assouaneabdelkarim.now.sh/</loc>
+<lastmod>2020-04-12</lastmod>
+<priority>0.80</priority>
+<changefreq>daily</changefreq>
+</url>
 </urlset>
